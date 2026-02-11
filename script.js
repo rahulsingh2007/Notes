@@ -167,6 +167,6 @@ let students = [
     }
 ]
 students[1].courses[1] = "AI"
-students[0].courses[1] = "AI"
+students[0].courses[1] = "Artificial interlligecnc I"
 console.log(students)
 
