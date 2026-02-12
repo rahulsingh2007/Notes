@@ -159,14 +159,18 @@ console.log(students[1].name, "scored gpa", students[1].scores[0].gpa, "in first
 let students = [
     {
         roll: 1,
-        courses: ["web", "mobile"]
+        courses: ["web", "mobile"],
+        isactive: true
     },
     {
         roll: 2,
-        courses: ["ML", "mobile"]
+        courses: ["ML", "mobile"],
+        isactive: false
     }
 ]
 students[1].courses[1] = "AI"
-students[0].courses[1] = "Artificial interlligecnc I"
+students[0].courses[1] = "AI"
+// console.log(students[0].roll ," has taken", students[0].courses[0],"and",students[0].courses[1] ,"and it is", students[0].isactive)
 console.log(students)
+
 
