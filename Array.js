@@ -60,3 +60,4 @@ students[1].courses[1] = "AI"
 students[0].courses[1] = "AI"
 // console.log(students[0].roll ," has taken", students[0].courses[0],"and",students[0].courses[1] ,"and it is", students[0].isactive)
 console.log(students)
+
