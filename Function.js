@@ -35,7 +35,7 @@ function addNewUser(name,age,location){
 }
 console.log(users) */
 
-let students = [
+/* let students = [
     {
         name: "Ramesh",
         scores: [
@@ -56,7 +56,7 @@ function getStudentInfo(students) {
     return(`${students[0].name} scored GPA ${students[0].scores[0].gpa} in first-term and ${students[0].scores[1].gpa} in second-term.`);
 }
 
-console.log(getStudentInfo(students));
+console.log(getStudentInfo(students)); */
 
 
 
